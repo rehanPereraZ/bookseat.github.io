@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Seat Booking System</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Seat Booking System</h1>
+
+    <p>Select a seat to book:</p>
+    <div class="seats">
+      <div class="row">
+        <div
+          class="seat available"
+          id="seat1"
+          onclick="selectSeat('seat1')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat2"
+          onclick="selectSeat('seat2')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat3"
+          onclick="selectSeat('seat3')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat4"
+          onclick="selectSeat('seat4')"
+        ></div>
+      </div>
+      <div class="row">
+        <div
+          class="seat available"
+          id="seat5"
+          onclick="selectSeat('seat5')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat6"
+          onclick="selectSeat('seat6')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat7"
+          onclick="selectSeat('seat7')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat8"
+          onclick="selectSeat('seat8')"
+        ></div>
+      </div>
+      <div class="row">
+        <div
+          class="seat available"
+          id="seat9"
+          onclick="selectSeat('seat9')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat10"
+          onclick="selectSeat('seat10')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat11"
+          onclick="selectSeat('seat11')"
+        ></div>
+        <div
+          class="seat available"
+          id="seat12"
+          onclick="selectSeat('seat12')"
+        ></div>
+      </div>
+    </div>
+    <p id="message"></p>
+    <button onclick="confirmSeat()">Confirm Seat</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
